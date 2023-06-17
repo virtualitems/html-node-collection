@@ -1,4 +1,4 @@
-# HTMLNodeCollection
+# HTML Node Collection
 
 The HTMLNodeCollection is a JavaScript utility that allows you to create a cache of HTML elements selected by a given CSS selector.
 
