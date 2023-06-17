@@ -72,7 +72,7 @@ console.log(ids); // Output: Array of element IDs
 // Perform more specific selections using querySelector and querySelectorAll
 // It will return a new HTMLNodeCollection instance
 const sidebar = containers.querySelector('.sidebar');
-const buttons = containers.querySelectorAll('button');
+const buttons = sidebar.querySelectorAll('button');
 
 // Check if the collection is empty
 console.log(containers.isEmpty()); // Output: Boolean indicating if the collection is empty
