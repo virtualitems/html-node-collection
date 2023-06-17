@@ -58,10 +58,6 @@ const HTMLNodeCollection = function(nodes) {
     return new HTMLNodeCollection(_cache.filter(node => node.matches(selector)));
   };
 
-  this.remove = function(index, deleteCount=1) {
-    return new HTMLNodeCollection(_cache.splice(index, deleteCount));
-  };
-
   this.some = function(fn) {
     return _cache.some(fn);
   };
