@@ -12,7 +12,6 @@ It provides various methods to manipulate and work with the cached HTML elements
 - ƒ map
 - ƒ querySelector
 - ƒ querySelectorAll
-- ƒ remove
 - ƒ some
 
 Remember that the beauty is that the nodes may not be part of the same node tree.
