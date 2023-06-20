@@ -46,7 +46,7 @@ Here's an example usage:
 const containers = collectHTML('div.container');
 
 // or you can:
-// containers = new HTMLNodeCollection('div.container');
+// containers = new HTMLNodeCollection(document.querySelectorAll('div.container'));
 
 // Access properties and methods of the HTMLNodeCollection instance
 console.log(containers.length); // Output: Number of selected elements
